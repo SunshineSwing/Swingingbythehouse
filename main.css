@@ -1,0 +1,451 @@
+.bg-dark{
+    background-color: #f29191!important; 
+}
+
+body {
+  background-color:#ffe8e8; 
+  padding: 5px;
+    text-decoration-color: grey;
+}
+
+.nav-link{
+  color: white!important;
+    font-size: 20px;
+    font-family:'Cutive Mono', monospace!important;
+}
+
+.welcome{
+    padding-top: 140px;
+    padding-bottom: 30px; 
+    font-family:'Cutive Mono', monospace!important;
+     text-decoration: underline dotted gray;
+}
+
+.dance{
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    font-family:'Cutive Mono', monospace!important;
+}
+
+.nav-item{
+    padding-left: 20px!important; 
+    padding-right: 20px!important; 
+    font-family:'Cutive Mono', monospace!important;
+}
+
+.footer{
+  position: relative;
+  left: 0;
+    top: 10px; 
+  bottom: 10px;
+  width: 100%;
+  background-color: #d1d9d9;
+  color: #d1d9d9;
+  text-align: center;
+    padding-bottom: 20px; 
+}
+
+video{
+  width:100%;
+    padding-bottom:20px; 
+    padding-left: 40px; 
+    padding-right: 40px; 
+}
+
+.welcomepicture{
+    border-radius:50%;
+    padding-bottom:20px; 
+    padding-left: 40px; 
+    padding-right: 40px; 
+    
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column-picture {
+  float: right;
+  width: 50%;
+  padding-top: 20px;
+    padding-right: 40px; 
+   padding-bottom: 10px; 
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column-article {
+  float: left;
+  width: 45%;
+  padding: 30px;
+    padding-top: 40px; 
+    padding-left: 60px; 
+}
+
+/* Clear floats after image containers */
+.row-article::after {
+  content: "";
+  clear: both;
+  display: table;
+    padding-bottom: 30px; 
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column-events {
+  float: left;
+  width: 50%;
+  padding: 30px;
+    padding-top: 40px; 
+    padding-left: 70px; 
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column-pictureevents {
+  float: right;
+  width: 40%;
+  padding-top: 60px;
+    padding-right: 70px; 
+}
+   
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column-eevents {
+  float: left;
+  width: 50%;
+  padding: 10px;
+    padding-top: 20px; 
+    padding-left: 70px; 
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column-ppictureevents {
+  float: right;
+  width: 40%;
+  padding-top: 40px;
+    padding-right: 70px; 
+}
+
+/* Clear floats after image containers */
+.row-events::after {
+  content: "";
+  clear: both;
+  display: table;
+    padding-bottom: 30px; 
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column-eventss {
+  float: right;
+  width: 50%;
+  padding: 30px;
+    padding-top: 40px; 
+    padding-right: 70px; 
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column-pictureeventss {
+  float: left;
+  width: 40%;
+    padding-left: 60px; 
+   
+}
+
+
+/* Clear floats after image containers */
+.row-eventss::after {
+  content: "";
+  clear: both;
+  display: table;
+    padding-bottom: 40px; 
+}
+
+.hellolindy{
+    float:inherit; 
+    padding-bottom: 40px; 
+    padding-top: 40px; 
+    padding-left: 100px; 
+    padding-right: 100px; 
+}
+
+.coursevideo{
+    padding-left: 60px; 
+    padding-right: 60px; 
+    padding-top: 15px; 
+    padding-bottom: 30px; 
+}
+
+.fjell{
+    padding-bottom: 30px; 
+    padding-top: 20px; 
+}
+
+/* GALLERY*/
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.containergallery {
+  position: relative;
+    padding: 50px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px; 
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: white;
+}
+
+/* Container for image text */
+.caption-containergallery {
+  text-align: center;
+  background-color: #ffdedd;
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+}
+
+.rowgallery:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.columngallery {
+  float: left;
+  width: 16.66%;
+    padding: 20px; 
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+.theteam{
+    padding-top: 30px; 
+    padding-bottom: 30px; 
+    width:"100%"; 
+}
+
+.article{
+  line-height: 2;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.gallerytitel{
+    padding-top: 150px; 
+    font-family:'Cutive Mono', monospace!important;
+}
+
+h1 {
+  font-size: 40px;
+  word-break: break-all;
+    color: gray;
+    font-family:'Cutive Mono', monospace!important;
+}
+
+
+h2 {
+  font-size: 40px;
+  word-break: break-all;
+    color: grey;
+    font-family:'Cutive Mono', monospace!important;
+}
+
+h3{
+    color: gray; 
+    font-family:'Cutive Mono', monospace!important;
+    padding-top: 10px; 
+}
+
+p{
+    color: grey;
+    font-family: 'Roboto', sans-serif!important; 
+}
+
+/* FB og INSTA*/
+.fa {
+  padding: 25px; 
+  font-size: 30px;
+  text-align: center; 
+  text-decoration: none;
+  border-radius: 0%;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #4267b2;
+  color: white;
+    border-radius:20px; 
+}
+
+/* Instagram */
+.fa-instagram {
+    background: #f29191; 
+        color:white; 
+      border-radius:20px; 
+}
+
+
+/* ABOUT */
+
+.columnteam {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 300px;
+  padding: 0 20px;
+    height: 100%;
+}
+
+.cardteam {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 20px;
+    height: 1000px;
+    background: white!important; 
+}
+
+.about-section {
+margin-top: 100px;
+  padding: 30px;
+  text-align: center;
+    background: white; 
+}
+
+.course-section{
+    margin-top: 100px;
+  padding-top: 30px;
+    padding-bottom: 15px; 
+  text-align: center;
+    background: white; 
+}
+
+.article-courses{
+    padding-top: 10px; 
+    padding-left: 20px; 
+}
+
+
+.containerteam {
+  padding: 0 20px;
+    width: 100%; 
+    height: 100%;
+    color: white!important; 
+}
+
+.containerteam::after, .row::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;  
+    font-family:'Cutive Mono', monospace!important;  
+}
+
+.titlep{
+    color: gray;  
+    font-family:'Cutive Mono', monospace!important;   
+}
+
+.h4{
+     color: gray; 
+    font-family:'Cutive Mono', monospace!important;   
+}
+
+.navbar-text{
+    color: white!important; 
+    font-size: 20px; 
+    padding-left: 20px; 
+    padding-right: 20px; 
+     font-family:'Cutive Mono', monospace!important;
+}
+
+.form-inline { 
+ border: none;
+  outline: 0;
+  display: inline-block;
+  color: white;
+  text-align: center; 
+  cursor: pointer;
+  width: 100%;
+    font-size: 10px; 
+    padding-left: 350px!important;
+    
+}
+
+.buttonnav {
+  border: none;
+  color: gray;
+  text-align: center;
+    font-size: 20px; 
+    padding-right: 20px!important; 
+     font-family:'Cutive Mono', monospace!important;
+    border-radius: 20px; 
+}
+
+.fa-envelope
+{
+padding: 10px;     
+}
+
+.buttonteam {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: pink;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+    font-size: 20px; 
+}
+
+.buttonteam:hover{
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .columnteam {
+    width: 100%; 
+    display: block;
+  }
+    
